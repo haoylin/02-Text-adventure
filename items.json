@@ -1,0 +1,9 @@
+{
+    "Gun": {
+       "exits": {},
+       "actions": {
+          "Shot": "You killed the zombie"
+       },
+       "points": 1
+      }
+ }

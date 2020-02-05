@@ -1,0 +1,129 @@
+{
+	"School": {
+		"name": "Classroom",
+		"desc": "You are at the center of the classroom that full of zombies",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "Second floor"
+		}, {
+			"exit": "SOUTH",
+			"target": "Locker"
+		}, {
+			"exit": "WEST",
+			"target": "Swimming pool"
+		}],
+		"items": []       
+	},
+	"Second floor": {
+		"name": "Second floor",
+		"desc": "You are at the second floor of the school",
+		"exits": [{
+			"exit": "WEST",
+			"target": "The bathroom"
+		}, {
+			"exit": "EAST",
+			"target": "Third floor"
+		}, {
+			"exit": "NORTH",
+			"target": "Teacher office"
+		}],
+		"items": []
+	},
+	"Locker": {
+		"name": "Locker",
+		"desc": "There is a locker in front of you",
+		"exits": [{
+			"exit": "WEST",
+			"target": "Swimming pool"
+		}, {
+			"exit": "EAST",
+			"target": "Second floor"
+		}, {
+			"exit": "SOUTH",
+			"target": "Classroom"
+		}],
+		"items": [{
+			"item":"Gun"
+			,"desc":"There is a gun in inside of the locker"
+			,"take":"you take the gun"
+		}]
+	},
+	"The bathroom": {
+		"name": "The bathroom",
+		"desc": "You are in a bathroom and there is no way out",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "Second floor"
+		}, {
+			"exit": "SOUTH",
+			"target": "Teacher office"
+		}, {
+			"exit": "EAST",
+			"target": "Second floor"
+		}, {
+			"exit": "WEST",
+			"target": "Second floor"
+		}],
+		"items": []
+	},
+	"Swimming pool": {
+		"name": "Swimming pool",
+		"desc": "Swimming pool is full of zombies",
+		"exits": [{
+			"exit": "EAST",
+			"target": "Classroom"
+		}, {
+			"exit": "WEST",
+			"target": "Clsroom"
+		}, {
+			"exit": "SOUTH",
+			"target": "Classroom"
+		}, {
+			"exit": "NORTH",
+			"target": "Classroom"
+		}],
+		"items": []
+	},
+	"Teacher office": {
+		"name": "Teacher office",
+		"desc": "Your teacher are turing into a zombie",
+		"exits": [{
+			"exit": "EAST",
+			"target": "Second floor"
+		}, {
+			"exit": "WEST",
+			"target": "Second floor"
+		}, {
+			"exit": "SOUTH",
+			"target": "Second floor"
+		}, {
+			"exit": "North",
+			"target": "Second floor"
+		}],
+		"items": []		
+	},
+		"Third floor": {
+			"name": "Third floor",
+			"desc": "You are at the third floor, there are no one in this floor",
+			"exits": [{
+				"exit": "EAST",
+				"target": "Second floor"
+			}, {
+				"exit": "WEST",
+				"target": "Rooftop"
+			}, {
+				"exit": "SOUTH",
+				"target": "Second floor"
+			}, {
+				"exit": "North",
+				"target": "Second floor"
+			}],
+			"items": []
+	},
+		"Rooftop": {
+			"name": "Rooftop",
+			"desc": "There is a helicopter in the rooftop, you drive the helicopter and fly to the safe zone."
+	}
+}
+			
+
